@@ -1,0 +1,59 @@
+
+
+/*profile.php for css
+/* profileform.css */
+
+/* Styles for the table */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .table th,
+  .table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  /* Styles for the action button */
+  .btn-success {
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #28a745;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+  }
+  
+  /* Optional: Styles for the table container */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Optional: Styles for the page header */
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+/*edit_userprofile.php for css
+/* profileforms.css */
+

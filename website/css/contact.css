@@ -1,0 +1,181 @@
+                        body {
+                            margin: 0;
+                            padding: 0;
+                            box-sizing: border-box;
+                            font-family: 'Poppins', sans-serif;
+                        }
+                        
+                        .icon {
+                            width: 25px;
+                            height: 25px;
+                            display: inline-flex;
+                        }
+                        
+                        .line {
+                            display: inline-flex;
+                            align-items: center;
+                        }
+                        
+                        .content {
+                            background-image: url("../images/16.webp");
+                            height: 90%;
+                            padding: 50px100px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
+                            background-size: cover;
+                        }
+                        
+                        .contact {
+                            max-width: 1000px;
+                            text-align: center;
+                        }
+                        
+                        .contact h1 {
+                            font-size: 36px;
+                            font-weight: 300;
+                            color: #fff;
+                        }
+                        
+                        .contact p {
+                            font-weight: 500;
+                            font-size: 18px;
+                            color: #fff;
+                        }
+                        
+                        .container {
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            margin-top: 30px;
+                        }
+                        
+                        .info {
+                            width: 50%;
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        
+                        .box:hover {
+                            -ms-transform: scale(1.5);
+                            -webkit-transform: scale(1.5);
+                            transform: scale(1.5);
+                        }
+                        
+                        .box {
+                            position: relative;
+                            padding: 30px 0;
+                            display: flex;
+                            padding: 50px;
+                            background-color: rgba(134, 91, 131, 0.589);
+                            transition: transform .2s;
+                            width: 155px;
+                            height: 80px;
+                            margin: 0 auto;
+                        }
+                        
+                        .icon {
+                            min-width: 60px;
+                            height: 60PX;
+                            background: #fff;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border-radius: 50%;
+                            font-size: 22px;
+                        }
+                        
+                        .text {
+                            display: flex;
+                            margin-left: 20px;
+                            font-size: 16px;
+                            color: #000000e3;
+                            flex-direction: column;
+                            font-weight: 300;
+                        }
+                        
+                        .text h3 {
+                            font-weight: 600;
+                            color: rgba(70, 2, 102, 0.788);
+                        }
+                        
+                        .form {
+                            width: 40%;
+                            padding: 40px;
+                            background: #fff;
+                        }
+                        
+                        .form h2 {
+                            font-size: 30px;
+                            color: rgba(54, 2, 87, 0.555);
+                            font-weight: 800;
+                        }
+                        
+                        .inputBox {
+                            position: relative;
+                            width: 100%;
+                            margin-top: 2px;
+                        }
+                        
+                        .input,
+                        .textarea {
+                            width: 100%;
+                            padding: 5px 0;
+                            font-size: 16px;
+                            margin: 10px 0;
+                            border: none;
+                            border-bottom: 2px solid #050404;
+                            outline: none;
+                            resize: none;
+                        }
+                        
+                        .span {
+                            position: absolute;
+                            left: 0;
+                            padding: 5px 0;
+                            font-size: 16px;
+                            margin: 10px 0;
+                            pointer-events: none;
+                            transition: 0.5s;
+                            color: #0c0c0cd0;
+                        }
+                        
+                        .inputBox input:focus~span,
+                        .inputBox input:valid~span,
+                        .inputBox textarea:focus~span,
+                        .inputBox textarea:valid~span {
+                            color: #7509a7;
+                            font-size: 12px;
+                            transform: translateY(-20px);
+                        }
+                        
+                        .inputBox input[type="submit"] {
+                            width: 100px;
+                            background: #a868ac;
+                            color: #fff;
+                            border: none;
+                            cursor: pointer;
+                            padding: 10px;
+                            font-size: 18px;
+                        }
+                        
+                        .inputBox input[type="submit"]:hover {
+                            background-color: #31073bb4;
+                        }
+                        
+                        @media(max-width:991px) {
+                            .content {
+                                padding: 50px;
+                            }
+                            .container {
+                                flex-direction: column;
+                            }
+                            .info {
+                                margin-bottom: 40px;
+                            }
+                            .info {
+                                width: 100%;
+                            }
+                        }

@@ -1,0 +1,187 @@
+body{
+  background-color:white;
+  background-size:cover;
+  padding: 10px;
+}
+.logo{
+width:10.8%;
+height:10.8%;
+  padding:2px;
+}
+.schoolTitle{
+  display: flex;
+  align-items: center;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 50px;
+  color:rgb(107, 39, 175);
+}
+.schoolTitle h1{
+  margin-right: 20px;
+}	
+hr#test{
+border:2px rgb(107, 39, 175);
+}
+
+ul.menu{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color:rgb(107, 39, 175);
+}
+li.menu {
+float: left;
+}
+
+li.menu:last-child {
+float: right;
+}
+
+li a {
+display: block;
+color:white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+li a:hover {
+background-color:gray;
+}
+
+#image1{
+margin-top: 20px;
+margin-right:20px;
+position:center-left;
+height: 900px;
+width:1485px;
+overflow: hidden;
+}
+.raw1 {
+background-color:rgb(107, 39, 175) ;
+display: flex;
+align-items: center;
+padding: 10px;
+color: white;
+}
+#image2{
+margin-top: 20px;
+margin-right:20px;
+position:center-left;
+height: 500px;
+width:740px;
+overflow: hidden;
+}
+.text1{
+text-align:center;
+font-size: 25px;
+font-family: Georgia, serif;
+letter-spacing: 1px;
+word-spacing: 3px;
+flex-grow: 3;
+}
+.raw2 {
+background-color:rgb(107, 39, 175) ;
+display: flex;
+align-items: center;
+padding: 10px;
+color: white;
+}
+.text2{
+text-align:center;
+font-size: 25px;
+font-family: Georgia, serif;
+letter-spacing: 1px;
+word-spacing: 3px;
+flex-grow: 3;
+}
+
+#image3{
+margin-top: 20px;
+margin-left:20px;
+height: 500px;
+width:750px;
+overflow: hidden;
+}
+
+.user-profile {
+display: flex;
+align-items: center;
+margin-left:300px;
+
+}
+
+.avatar {
+width: 60px;
+height:60px;
+border-radius: 50%;
+margin-right: 10px;
+}
+
+.user-details {
+font-size: 18px;
+}
+
+.user-id {
+font-weight: bold;
+}
+
+.user-name {
+color: #555;
+}
+li.menu.parent:hover .dropdown {
+display: block;
+}
+
+.dropdown {
+display: none;
+position: absolute;
+background-color:rgb(107, 39, 175);
+min-width: 160px;
+z-index: 1;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown li {
+display: block;
+padding: 10px;
+}
+
+.dropdown li:hover {
+background-color:gray;
+}
+#calendar {
+width: 100%;
+max-width: 800px;
+margin: 20px auto;
+}
+
+.footer {
+background-color: #f4f4f4;
+padding: 20px;
+text-align: center;
+}
+
+.footer-content {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.footer p {
+margin:2px;
+}
+
+.footer-links {
+margin-top: 10px;
+}
+
+.footer-links a {
+margin: 5 5px;
+color:rgb(107, 39, 175);
+text-decoration:solid;
+}
+
+.footer-links a:hover {
+text-decoration:solid;
+}

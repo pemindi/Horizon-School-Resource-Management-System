@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 2;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fandq {
+    background-image: url("../images/new2.jpg");
+    height: 100%;
+    padding: 50px100px;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    align-items: center;
+    flex-direction: column;
+}
+
+.faq-description {
+    display: none;
+    font-family: 'Calibri, 'Trebuchet MS', 'sans-serif;
+    font-weight: 100;
+}
+
+.active {
+    display: inherit;
+}
+
+.faq-heading {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: large;
+}
+
+.fcontainer {
+    background-color: rgb(107,39,175);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+    margin-top: 5rem;
+    margin-left: 10px;
+    padding: 1.5rem;
+    width: 600px;
+    transition: scale();
+    justify-content: left;
+}
+
+.fcontainer:hover {
+    -ms-transform: scale(1.5);
+    background-color: rgb(107,39,175);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+ 
+
+}
+
+.link-text {
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}
